@@ -1,0 +1,24 @@
+body{
+    font-family: 'Suranna', serif;
+}
+
+canvas{
+animation-name:imAmazing;
+animation-duration:5s;
+animation-iteration-count:infinite;
+}
+
+@keyframes imAmazing{
+    from{box-shadow:1px 1px 38px orangered;}
+    to{box-shadow: 1px 1px 38px seagreen;}
+}
+
+h1{
+    animation-name:Iamamazing;
+    animation-duration:5s;
+    animation-iteration-count:infinite;  
+}
+
+@keyframes Iamamazing{
+    50%{font-size:20px;}
+}
